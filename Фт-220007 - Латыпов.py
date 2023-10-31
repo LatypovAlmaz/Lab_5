@@ -1,5 +1,5 @@
 alpha = 'abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz0123456789,.!?;:\'\"-/()[]'
-alpha1 = '][)(/-"\'\:;?!.,9876543210zyxwvutsrqponmlkjihgfedcbazyxwvutsrqponmlkjihgfedcba'
+alpha1 = ' ][)(/-"\'\:;?!.,9876543210zyxwvutsrqponmlkjihgfedcbazyxwvutsrqponmlkjihgfedcba'
 choice = int(input('Выберите режим работы 1 - зашифровать, 2 - расшифровать: '))
 def match(text, alphabet=set('abcdefghijklmnopqrstuvwxyz')):
     return not alphabet.isdisjoint(text.lower())
